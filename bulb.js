@@ -129,6 +129,7 @@ annyang.addCommands({
     'red': red,
     'green': green,
     'blue': blue,
+    'italy' : italy,
     'yellow': () => setColor(127, 127, 0),
     'orange': () => setColor(127, 35, 0),
     'purple': () => setColor(127, 0, 127),
@@ -136,8 +137,7 @@ annyang.addCommands({
     'cyan': () => setColor(0, 127, 127),
     'white': () => setColor(127, 127, 127),
     'on': powerOn,
-    'off': powerOff,
-    'italy' : italy
+    'off': powerOff
 });
 
 // Install service worker - for offline support
