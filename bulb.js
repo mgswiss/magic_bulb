@@ -110,12 +110,9 @@ function listen() {
 
 // Voice commands
 annyang.addCommands({
-    'red': red,
+    'rosso': red,
     'green': green,
     'blue': blue,
-    'rosso': red,
-    'verde': green,
-    'blu': blue,
     'yellow': () => setColor(127, 127, 0),
     'orange': () => setColor(127, 35, 0),
     'purple': () => setColor(127, 0, 127),
