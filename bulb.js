@@ -112,12 +112,8 @@ function white() {
 
 
 function italy() {
-    green();
-    sleep(1000);
-    white();
-    sleep(1000);
-    red();
-    sleep(1000);
+    return setColor(127, 127, 127)
+    .then(() => console.log('Color set to Italy'));
 
 }
 
