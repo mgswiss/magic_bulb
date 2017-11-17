@@ -110,7 +110,7 @@ function listen() {
 
 // Voice commands
 annyang.addCommands({
-    'red': green,
+    'red': red,
     'green': green,
     'blue': blue,
     'yellow': () => setColor(127, 127, 0),
@@ -119,8 +119,8 @@ annyang.addCommands({
     'pink': () => setColor(180, 12, 44),
     'cyan': () => setColor(0, 127, 127),
     'white': () => setColor(127, 127, 127),
-    'accendi': powerOn,
-    'spegni': powerOff,
+    'on': powerOn,
+    'off': powerOff,
     'turn on': powerOn,
     'turn off': powerOff
 });
