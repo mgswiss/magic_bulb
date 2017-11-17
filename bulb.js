@@ -103,15 +103,22 @@ function blue() {
     return setColor(0, 0, 255)
         .then(() => console.log('Color set to Blue'));
 }
+function white() {
+    return setColor(127, 127, 127)
+        .then(() => console.log('Color set to White'));
+}
+
+
+
 
 function italy() {
-    return setColor(0, 255, 0)
+    green()
     sleep(1000)
-    return setColor(127,127,127)
+    white()
     sleep(1000)
-    return setColor(255,0,0)
+    red()
     sleep(1000)
-        .then(() => console.log('Set to Italy Flag Flag'));
+        .then(() => console.log('Set to Italy Flag'));
 }
 
 
