@@ -108,7 +108,7 @@ function white() {
         .then(() => console.log('Color set to White'));
 }
 function italy() {
-    green();
+     return setColor(200, 0, 0)
     .then(() => console.log('Color set to Italy'));
 }
 function listen() {
