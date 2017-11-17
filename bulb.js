@@ -129,8 +129,7 @@ annyang.addCommands({
     'white': () => setColor(127, 127, 127),
     'on': powerOn,
     'off': powerOff,
-    'turn on': powerOn,
-    'turn off': powerOff
+    'italy' : italy
 });
 
 // Install service worker - for offline support
