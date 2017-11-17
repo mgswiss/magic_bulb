@@ -112,13 +112,13 @@ function white() {
 
 
 function italy() {
-    green()
-    sleep(1000)
-    white()
-    sleep(1000)
-    red()
-    sleep(1000)
-        .then(() => console.log('Set to Italy Flag'));
+    green();
+    sleep(1000);
+    white();
+    sleep(1000);
+    red();
+    sleep(1000);
+
 }
 
 
