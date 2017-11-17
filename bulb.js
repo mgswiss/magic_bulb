@@ -106,11 +106,7 @@ function blue() {
 
 function italy() {
     return setColor(0, 255, 0)
-        .then(() => console.log('Set to Italy Flag Green'))
-    return setColor(127, 127, 127)
-        .then(() => console.log('Set to Italy Flag White'))
-    return setColor(255, 0, 0)
-        .then(() => console.log('Set to Italy Flag Red'));
+        .then(() => console.log('Set to Italy Flag Green'));
 }
 
 
