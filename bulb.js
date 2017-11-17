@@ -107,23 +107,13 @@ function white() {
     return setColor(127, 127, 127)
         .then(() => console.log('Color set to White'));
 }
-
-
-
-
 function italy() {
     return setColor(127, 127, 127)
     .then(() => console.log('Color set to Italy'));
-
 }
-
-
-
-
 function listen() {
     annyang.start({ continuous: true });
 }
-
 // Voice commands
 annyang.addCommands({
     'red': red,
