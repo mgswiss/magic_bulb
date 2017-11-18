@@ -115,20 +115,38 @@ function listen() {
     annyang.start({ continuous: true });
 }
 // Voice commands
+annyang.setLanguage('it-IT');
+
 annyang.addCommands({
-    'red': red,
-    'green': green,
+    'rosso': red,
+    'verde': green,
     'blue': blue,
-    'italy' : italy,
-    'yellow': () => setColor(127, 127, 0),
-    'orange': () => setColor(127, 35, 0),
-    'purple': () => setColor(127, 0, 127),
-    'pink': () => setColor(180, 12, 44),
-    'cyan': () => setColor(0, 127, 127),
-    'white': () => setColor(127, 127, 127),
-    'on': powerOn,
-    'off': powerOff
+    'giallo': () => setColor(127, 127, 0),
+    'arancione': () => setColor(127, 35, 0),
+    'porpora': () => setColor(127, 0, 127),
+    'rosa': () => setColor(180, 12, 44),
+    'azzurro': () => setColor(0, 127, 127),
+    'baianco': () => setColor(127, 127, 127),
+    'accendi': powerOn,
+    'spegni': powerOff
 });
+
+
+
+//annyang.addCommands({
+  //  'red': red,
+    //'green': green,
+    //'blue': blue,
+    //'italy' : italy,
+    //'yellow': () => setColor(127, 127, 0),
+    //'orange': () => setColor(127, 35, 0),
+    //'purple': () => setColor(127, 0, 127),
+    //'pink': () => setColor(180, 12, 44),
+    //'cyan': () => setColor(0, 127, 127),
+    //'white': () => setColor(127, 127, 127),
+    //'on': powerOn,
+    //'off': powerOff
+//});
 
 // Install service worker - for offline support
 if ('serviceWorker' in navigator) {
