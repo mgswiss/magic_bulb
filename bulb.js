@@ -121,12 +121,13 @@ annyang.addCommands({
     'rosso': red,
     'verde': green,
     'blue': blue,
+    'italia': italy,
     'giallo': () => setColor(127, 127, 0),
     'arancione': () => setColor(127, 35, 0),
     'porpora': () => setColor(127, 0, 127),
     'rosa': () => setColor(180, 12, 44),
     'azzurro': () => setColor(0, 127, 127),
-    'baianco': () => setColor(127, 127, 127),
+    'bianco': () => setColor(127, 127, 127),
     'accendi': powerOn,
     'spegni': powerOff
 });
